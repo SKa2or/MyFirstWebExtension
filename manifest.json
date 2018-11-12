@@ -1,0 +1,15 @@
+{
+  "name": "ska2or",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "My name is SKa2or！",
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*","http://www.csdn.net/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
